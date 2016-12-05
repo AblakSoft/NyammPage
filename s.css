@@ -28,12 +28,12 @@ body{
     animation-name: na;
     animation-duration: 2s;
     width: 80%; height: 90%;
-    
+    font-size: 50px;
 }
 @keyframes na{
-    0% {width: 40px; height: 40px; border-radius: 40px; background-color: red;}
-    25% {width: 40px; height: 40px; border-radius: 40px; background-color: #999999;}
-    50% {width: 80%; height: 40px;}
-    75% {width: 80%; height: 90%; border-radius: 0px;}
-    100% {width: 80%; height: 90%; border-radius: 0;}
+    0% {width: 40px; height: 40px; border-radius: 40px; background-color: red; color: red; font-size: 1px;}
+    25% {width: 40px; height: 40px; border-radius: 40px; background-color: #999999; color: #999999;}
+    50% {width: 80%; height: 40px; font-size: 1px}
+    75% {width: 80%; height: 90%; border-radius: 0px; color: #999999; font-size: 80px;}
+    100% {width: 80%; height: 90%; border-radius: 0; color: #000000;}
 }
