@@ -1,2 +1,2 @@
-# weblap
+# NyammPage
 finom
