@@ -1,5 +1,4 @@
 div{
-    border: 1px dotted red;
 }
 body{
     margin: 0;
@@ -39,16 +38,26 @@ body{
     height: 100%;
     width: 90%;
     margin: auto;
+    padding-top: 30px
 }
 
 .almenu{
     width: 40%; height: 288px;
     margin: 10px 0;
     float: left;
-    border: 1px solid black;
-    background-color: #999999;
+    background-color: #666666;
     display: none;
     animation: v 1s;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 3px gray;
+    box-shadow: 0 0 1px gray;
+}
+.almenu:hover{
+    text-shadow: 0 0 25px white;
+    box-shadow: 0 0 15px lightgrey;
+    transition: text-shadow 0.5s, box-shadow 0.5s;
 }
 #m1, #m3{
     margin-left: 9%;
@@ -60,7 +69,9 @@ body{
 }
 
 #m1{
-    
+    background-image: url("ass/keyboardcat.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 
@@ -74,4 +85,8 @@ body{
 @keyframes v{
     from{opacity: 0;}
     to{opacity: 1;}
+}
+@keyframes s{
+    from{text-shadow: 0 0 3px gray; box-shadow: none;}
+    to{text-shadow: 0 0 15px lightgrey; box-shadow: 10px 10px 5px lightgrey;}
 }
